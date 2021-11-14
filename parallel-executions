@@ -1,6 +1,6 @@
 
 
-node{
+//node{
  parallel firstBranch: {
         stage('one'){
            git url: 'http://github.com/javahometech/my-app', branch: 'master123' 
